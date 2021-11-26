@@ -1,0 +1,45 @@
+.style-two {
+  border: 0;
+  width: 80%;
+  text-align: center;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.infoTitle {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.gridIcon {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 0.5rem;
+}
+
+.gridTitle {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.gridButton {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  color: gray !important;
+  border: 1px solid gray !important;
+}
+
+.gridItem {
+  margin-top: 3rem !important;
+}
