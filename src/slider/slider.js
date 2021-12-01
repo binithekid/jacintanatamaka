@@ -10,7 +10,7 @@ import "./slider.css";
 
 const Slider = () => {
   return (
-    <Carousel controls={false} fade className='carousel'>
+    <Carousel controls={true} fade className='carousel'>
       <Carousel.Item>
         <img className='d-block w-100' src={ImageOne} alt='First slide' />
       </Carousel.Item>

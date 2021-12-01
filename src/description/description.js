@@ -12,7 +12,7 @@ const Description = () => {
         <Grid container spacing={2}>
           <Grid item xs={12}>
             <h6 className='descriptionPara'>In Loving Memory of</h6>
-            <h3 className='descriptionHThree'>Jacinta Namataka</h3>
+            <h2 className='descriptionHTwo'>Jacinta Boadi (née Namataka)</h2>
             <h5
               className='descriptionHFive'
               style={{ fontStyle: "italic", fontSize: "1rem" }}>

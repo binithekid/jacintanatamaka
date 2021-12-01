@@ -1,20 +1,25 @@
-import "./App.css";
+//React-Router
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 //Components
-import NavBar from "./navbar/navbar";
-import Slider from "./slider/slider.js";
-import Description from "./description/description";
-import Information from "./information/information";
-import Footer from "./footer/footer";
+import Home from "./home/home";
+import Obituary from "./obituary/obituary";
+import Gallery from "./gallery/gallery";
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Slider />
-      <Description />
-      <Information />
-      <Footer />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path='/'>
+          <Home />
+        </Route>
+        <Route exact path='/obituary'>
+          <Obituary />
+        </Route>
+        <Route exact path='/gallery'>
+          <Gallery />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

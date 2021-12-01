@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+//Links
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,11 +10,9 @@ const NavBar = () => {
       <Hamburger onClick={() => setIsOpen(!isOpen)}>Menu</Hamburger>
       <Nav>
         <Menu isOpen={isOpen}>
-          <MenuLink href=''>Home</MenuLink>
-          <MenuLink href=''>Biography</MenuLink>
-          <MenuLink href=''>Tributes</MenuLink>
-          <MenuLink href=''>Memories</MenuLink>
-          <MenuLink href=''>Gallery</MenuLink>
+          <MenuLink href='/'>Home</MenuLink>
+          <MenuLink href='/obituary'>Obituary</MenuLink>
+          <MenuLink href='/gallery'>Gallery</MenuLink>
         </Menu>
       </Nav>
     </div>
@@ -27,6 +26,10 @@ const Nav = styled.div`
   align-items: center;
   flex-wrap: wrap;
   background: white;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
 `;
 
 const Hamburger = styled.div`
