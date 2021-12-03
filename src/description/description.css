@@ -16,3 +16,16 @@
 .descriptionHTwo {
   text-align: center;
 }
+
+.buttons {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 1rem;
+}
+
+.griddButton {
+  color: gray !important;
+  border: 1px solid gray !important;
+  background-color: white !important;
+}

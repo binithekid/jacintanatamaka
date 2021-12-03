@@ -9,3 +9,18 @@
   font-size: 1.2rem;
   padding-right: 3rem;
 }
+
+@media (max-width: 600px) {
+  .obituaryTitle {
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .obituaryPara {
+    padding-left: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+    padding-right: 1rem;
+  }
+}
